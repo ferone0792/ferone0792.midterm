@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Navigation */
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff;
+  background-color: #333;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+#products table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#products caption {
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#products th,
+#products td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+#products thead th {
+  background-color: #444;
+  color: #ffffff;
+}
+
+#products col.shade {
+  background-color: #f9f9f9;
+}
+
+#products tfoot td {
+  text-align: center;
+  font-style: italic;
+  border-top: 2px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+}
